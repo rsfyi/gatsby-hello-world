@@ -7,7 +7,7 @@ const products = () => {
   return (
     <Layout>
       <div className={styles.page}>
-        <h1>Welcome to our products!</h1>
+        <p>Welcome to our products!</p>
         <p className={styles.color}>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime,
           numquam doloribus laboriosam voluptatum aspernatur quas corporis

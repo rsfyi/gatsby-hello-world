@@ -7,7 +7,7 @@ const blog = () => {
   return (
     <Layout>
       <div className={styles.page}>
-        <h1>Welocme to our blog page</h1>
+        <p>Welocme to our blog page</p>
         <p className={styles.color}>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime,
           numquam doloribus laboriosam voluptatum aspernatur quas corporis
