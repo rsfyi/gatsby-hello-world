@@ -6,7 +6,7 @@ import { ExampleButton } from "../components/Button"
 export default function Home() {
   return (
     <Layout>
-      <h1>Hello from home page</h1>
+      <p>Hello from home page</p>
       <ExampleButton>Click Me</ExampleButton>
     </Layout>
   )
