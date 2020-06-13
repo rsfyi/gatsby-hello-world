@@ -1,10 +1,13 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- */
-
 module.exports = {
-  /* Your site config here */
-  plugins: [],
+  siteMetadata: {
+    title: "My first Gatsby project",
+    description: "some random description",
+    author: "rahul singh",
+    data: ["item1", "item2"],
+    person: {
+      name: "raj",
+      age: 28,
+    },
+  },
+  plugins: ["gatsby-plugin-styled-components"],
 }
