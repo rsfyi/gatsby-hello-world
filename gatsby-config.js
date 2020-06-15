@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
     title: "My first Gatsby project",
@@ -30,8 +34,8 @@ module.exports = {
     {
       resolve: `gatsby-source-contentful`,
       options: {
-        spaceId: "l99i1pwelpqm",
-        accessToken: "onMMyRtAqDdwEttZ07LjGXNQYWok7j762YKv_ig5O28",
+        spaceId: process.env.SPACE_ID,
+        accessToken: process.env.ACCESS_TOKEN,
       },
     },
   ],
